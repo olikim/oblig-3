@@ -2,7 +2,7 @@ public class LeapYear {
     public static boolean isLeapYear(int year) {
 
         if (divisibleByFour(year) && notDivisibleBy100(year)) {
-            return true;
+            return false;
         } else return divisibleBy400(year);
     }
 
